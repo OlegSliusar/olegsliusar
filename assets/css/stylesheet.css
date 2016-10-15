@@ -1,0 +1,157 @@
+/* universal */
+
+header {
+  text-align: center;
+}
+
+header h3 {
+  font-family: Sans-serif;
+}
+
+#about {
+  width: 750px;
+  margin: auto;
+}
+
+.construction {
+  padding-top: 0px;
+}
+
+img#avatar {
+  border-radius: 100%;
+  width: 175px;
+}
+
+body {
+  margin: 70px auto;
+  margin-bottom: 0px;
+  height: 100%;
+  position: relative;
+  font-family: Ubuntu, sans-serif;
+}
+
+/* typography */
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.construction {
+  font-family: monospace;
+  color: gray;
+}
+
+a {
+  color: #000;
+}
+
+a:visited {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#name {
+  font-family: Ubuntu, sans-serif;
+  font-size: 35px;
+}
+
+/* Work */
+
+.work {
+  font-size: 20px;
+  width: 750px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 5%;
+}
+
+.work div {
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.bitbucket {
+  margin-right: 20px;
+  float: right;
+  margin-top: 20px;
+  position: relative;
+}
+
+.bitbucket a img {
+  width: 220px;
+  text-decoration: none;
+}
+
+.github {
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.github a img {
+  width: 200px;
+  /*width: 60%;*/
+  text-decoration: none;
+}
+
+h4#learning-english-guide {
+  clear: both;
+}
+
+/* Footer */
+
+#footer {
+  padding-top: 1px;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #354551;
+  color: #fff;
+  width: 100%;
+  height: 60%;
+  clear: both;
+}
+
+#footer h4 {
+  font-size: 20px;
+  color: #fff;
+}
+
+#footer h3 {
+  color: #fff;
+}
+
+.email {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.email a:hover {
+  text-decoration: none;
+}
+
+#social-links img {
+  width: 35px;
+  margin: 0px 35px 15px 35px;
+}
+
+#social-links a {
+  text-decoration: none;
+}
