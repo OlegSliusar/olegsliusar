@@ -49,6 +49,9 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-size: 20px;
+}
 .construction {
   font-family: monospace;
   color: gray;
