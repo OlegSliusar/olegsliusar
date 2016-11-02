@@ -1,7 +1,16 @@
 /* universal */
 
+body {
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  font-family: Ubuntu, sans-serif;
+  line-height: 25px;
+}
+
 header {
   text-align: center;
+  margin-top: 70px;
 }
 
 header h3 {
@@ -13,21 +22,17 @@ header h3 {
   margin: auto;
 }
 
-.construction {
-  padding-top: 0px;
-}
-
 img#avatar {
   border-radius: 100%;
   width: 175px;
 }
 
-body {
-  margin: 70px auto;
-  margin-bottom: 0px;
-  height: 100%;
-  position: relative;
-  font-family: Ubuntu, sans-serif;
+a, a:visited {
+  color: #000;
+}
+
+a:hover, .github a img, .bitbucket a img, #social-links a {
+  text-decoration: none;
 }
 
 /* typography */
@@ -37,39 +42,35 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
 }
-
+/*
 h2 {
-  letter-spacing: -1px;
   margin-bottom: 30px;
-  font-weight: normal;
-}
+}*/
 
 h3 {
   font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 20px 20px;
   text-align: center;
 }
 
 p {
   font-size: 20px;
-}
-.construction {
-  font-family: monospace;
-  color: gray;
+
 }
 
-a {
-  color: #000;
-}
-
-a:visited {
-  color: #000;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-#name {
+h2#name {
+  margin-top: 30px;
+  margin-bottom: 40px;
   font-family: Ubuntu, sans-serif;
   font-size: 35px;
 }
@@ -77,9 +78,8 @@ a:hover {
 /* Work */
 
 .work {
-  font-size: 20px;
   width: 750px;
-  margin: auto;
+  margin: 30px auto;
   padding-top: 5px;
   padding-bottom: 5%;
 }
@@ -88,6 +88,14 @@ a:hover {
   display: inline-block;
   padding: 0px;
   margin-bottom: 40px;
+}
+
+.work p {
+  line-height: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 .bitbucket {
@@ -99,7 +107,6 @@ a:hover {
 
 .bitbucket a img {
   width: 220px;
-  text-decoration: none;
 }
 
 .github {
@@ -110,8 +117,6 @@ a:hover {
 
 .github a img {
   width: 200px;
-  /*width: 60%;*/
-  text-decoration: none;
 }
 
 h4#learning-english-guide {
@@ -121,40 +126,28 @@ h4#learning-english-guide {
 /* Footer */
 
 #footer {
-  padding-top: 1px;
-  margin-bottom: 0;
+  position: relative;
+  color: #fff;
+  margin: 0 auto;
   text-align: center;
   background-color: #354551;
-  color: #fff;
   width: 100%;
-  height: 60%;
-  clear: both;
-}
-
-#footer h4 {
-  font-size: 20px;
-  color: #fff;
+  height: 30%;
+  /*width: 750px;*/
+  /*border-radius: 25px 25px 0 0;*/
 }
 
 #footer h3 {
-  color: #fff;
+  margin-bottom: 15px;
 }
 
 .email {
   font-size: 20px;
   color: #fff;
-  text-decoration: underline;
-}
-
-.email a:hover {
-  text-decoration: none;
+  padding-top: 10px;
 }
 
 #social-links img {
   width: 35px;
-  margin: 0px 35px 15px 35px;
-}
-
-#social-links a {
-  text-decoration: none;
+  margin: 10px 40px 20px 40px;
 }
