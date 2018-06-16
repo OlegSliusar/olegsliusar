@@ -31,7 +31,7 @@ a, a:visited {
   color: #000;
 }
 
-a:hover, .github a img, .bitbucket a img, #social-links a {
+a:hover, .github a img, #social-links a {
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ h4 {
 
 p {
   font-size: 20px;
-
+  text-align: center;
 }
 
 h2#name {
